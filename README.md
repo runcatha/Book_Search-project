@@ -129,15 +129,15 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Basic HTML/CSS | H | 2 hrs |  -hrs| -hrs | -hrs |
 | Render main data | H | 3hrs| -hrs | -hrs |
 | Render NYT data | H | 2hrs| -hrs | -hrs |
-| Consult on array| H | 1.5 hrs| -hrs | -hrs |
+| Consult on array| M | 1.5 hrs| -hrs | -hrs |
 | Render TMM data | H | 2 hrs |  -hrs| -hrs | -hrs |
-| Create array for book recommendations | H | 3 hrs |  -hrs| -hrs | -hrs |
-| Render array to display data | H | 3hrs| -hrs | -hrs |
+| Create array for book recommendations | L | 3 hrs |  -hrs| -hrs | -hrs |
+| Render array to display data | L | 3hrs| -hrs | -hrs |
 | Create responsive design | H | 2hrs| -hrs | -hrs |
 | Remove previous search data | H | 3hrs| -hrs | -hrs |
-| Add nav bar| H | 1 hrs| -hrs | -hrs |
-| Make colors more dynamic | H | 1 hrs |  -hrs| -hrs | -hrs |
-| Add loading giff | H | 2 hrs |  -hrs| -hrs | -hrs |
+| Add nav bar| L | 1 hrs| -hrs | -hrs |
+| Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | -hrs |
+| Add loading giff | L | 2 hrs |  -hrs| -hrs | -hrs |
 | Deploy website | H | .5hrs| -hrs | -hrs |
 | Total | H | 32.6hrs| 4.5hrs | -hrs |
 
