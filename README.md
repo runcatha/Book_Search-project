@@ -111,8 +111,8 @@ This project will allow you to find books by title, author, and publisher. Resea
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / actual code | Incomplete
+|August 2| Project Approval / Pseudocode / Basic HTML and JS | Incomplete
+|August 3| Finish HTML/CSS/JS /actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
 |August 5| MVP | Incomplete
 |August 6| Presentations | Incomplete
@@ -127,8 +127,8 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | --- | :---: |  :---: | :---: | :---: |
 | Find Api | H | 1.5hrs| 1.5hrs | 1.5hrs |
 | Complete Readme | H | 3hrs| 3hrs | 3hrs |
-| Touch files| H | .1 hrs| -hrs | -hrs |
-| Psudocode | H | 2 hrs |  -hrs| -hrs | -hrs |
+| Touch files| H | .1 hrs| .1hrs | .1hrs |
+| Psudocode | H | 2 hrs |  .5hrs| .5hrs | 
 | Basic HTML/CSS | H | 2 hrs |  -hrs| -hrs | -hrs |
 | Render main data | H | 3hrs| -hrs | -hrs |
 | Render NYT data | H | 2hrs| -hrs | -hrs |
@@ -142,7 +142,7 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | -hrs |
 | Add loading giff | L | 2 hrs |  -hrs| -hrs | -hrs |
 | Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 4.5hrs | -hrs |
+| Total | H | 32.6hrs| 5.1hrs | -hrs |
 
 ## Code Snippet
 
