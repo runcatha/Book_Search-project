@@ -98,10 +98,10 @@ This project will allow you to find books by title, author, and publisher. Resea
 
 - Find book api 
 - organize data needed for primary search 
-- make a second option for viewers to see a list of New York Times Best Sellers
 
 #### PostMVP  
 
+- make a second option for viewers to see a list of New York Times Best Sellers
 - make a third option that gives the viewer a recommendation. This will be done by referencing a randomIndex of ten books or if time does not allow link to The Total Money Makeover by Dave Ramsey.
 
 ## Project Schedule
