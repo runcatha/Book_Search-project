@@ -97,7 +97,9 @@ This project will allow you to find books by title, author, and publisher. Resea
 #### MVP 
 
 - Find book api 
-- organize data needed for primary search 
+- user search by book title 
+- Render title, author, publisher, image, description, and rating
+- Style book elements with flexbox
 
 #### PostMVP  
 
