@@ -111,10 +111,10 @@ This project will allow you to find books by title, author, and publisher. Resea
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Pseudocode / Basic HTML and JS | Incomplete
-|August 3| Finish HTML/CSS/JS /actual code | Incomplete
-|August 4| Initial Clickable Model  | Incomplete
-|August 5| MVP | Incomplete
+|August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Incomplete
+|August 3| Complete Popular search HTML, CSS, JS | Incomplete
+|August 4| Complete Recommended search HTML, CSS, JS | Incomplete
+|August 5| Improve CSS, dry code | Incomplete
 |August 6| Presentations | Incomplete
 
 ## Priority Matrix

@@ -17,13 +17,48 @@ function renderList(bookData) {
 
     //Title
     let bookTitle = document.createElement('h2')
-    bookTitle.textContent = `${bookData.volumeInfo.title}`
+    bookTitle.textContent = `${book.volumeInfo.title}`
     bookStats.append(bookTitle)
-    //Author
     //Cover img
-    //Publisher
-    //Descriotion
+    let bookCover = document.createElement('img')
+    if (!book.volumeInfo.imageLinks.thumbnail) {
+      bookCover.alt = 'Book cover'
+    } else {
+      bookCover.src = `${book.volumeInfo.imageLinks.thumbnail}`
+    }
+    bookStats.append(bookCover)
+    //Author
+    let bookAuthor = document.createElement('h3')
+    if (!book.volumeInfo.authors) {
+      bookAuthor.textContent = 'Author not listed'
+    } else {
+      bookAuthor.textContent = `${book.volumeInfo.authors}`
+    }
+    bookStats.append(bookAuthor)
     //Rating
+    let bookRating = document.createElement('h5')
+    if (!book.volumeInfo.averageRating) {
+      bookRating.textContent = '25 out of 5'
+    } else {
+      bookRating.textContent = `Rated: ${book.volumeInfo.averageRating} out of 5`
+    }
+    bookStats.append(bookRating)
+    //Publisher
+    let bookPublisher = document.createElement('h4')
+    if (!book.volumeInfo.publisher) {
+      bookPublisher.textContent = 'Publisher not listed'
+    } else {
+      bookPublisher.textContent = `${book.volumeInfo.publisher}`
+    }
+    bookStats.append(bookPublisher)
+    //Description
+    let bookDescription = document.createElement('h6')
+    if (!book.volumeInfo.description) {
+      bookDescription.textContent = `It's like, a super duper book`
+    } else {
+      bookDescription.textContent = `${book.volumeInfo.description}`
+    }
+    bookStats.append(bookDescription)
   })
 }
 //render book data, listen for click event
@@ -41,7 +76,13 @@ const getData = async () => {
   }
 }
 button.addEventListener('click', getData)
-  //remove previous data on new search
+//remove previous data on new search
+function removeElement() {
+  let
+  while (element.lastChild) {
+    element.removeChild(element.lastChild)
+  }
+}
 
 
 //***POPULAR SEARCH*** 
