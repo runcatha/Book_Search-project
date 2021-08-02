@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Project Name: Find a Book URL: https://www.googleapis.com/books/v1/volumes?q={search terms}
+Project Name: Book Search URL: https://www.googleapis.com/books/v1/volumes?q={search terms}
 
 ## Project Description
 
