@@ -101,13 +101,13 @@ This project will allow you to find books by title, author, and publisher. Resea
 
 #### PostMVP  
 
-- make a third option that gives the viewer a recommendation. This will be done by referencing a randomIndex of ten books or 
+- make a third option that gives the viewer a recommendation. This will be done by referencing a randomIndex of ten books or if time does not allow link to The Total Money Makeover by Dave Ramsey.
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
@@ -119,10 +119,6 @@ This project will allow you to find books by title, author, and publisher. Resea
 https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
