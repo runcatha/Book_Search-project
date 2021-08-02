@@ -127,7 +127,7 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | --- | :---: |  :---: | :---: | :---: |
 | Find Api | H | 1.5hrs| 1.5hrs | 1.5hrs |
 | Complete Readme | H | 3hrs| 3hrs | 3hrs |
-| Touch files| H | .1 hrs| -hrs | -hrs |
+| Touch files| H | .1 hrs| .1hrs | .1hrs |
 | Psudocode | H | 2 hrs |  -hrs| -hrs | -hrs |
 | Basic HTML/CSS | H | 2 hrs |  -hrs| -hrs | -hrs |
 | Render main data | H | 3hrs| -hrs | -hrs |
@@ -142,7 +142,7 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | -hrs |
 | Add loading giff | L | 2 hrs |  -hrs| -hrs | -hrs |
 | Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 4.5hrs | -hrs |
+| Total | H | 32.6hrs| 4.6hrs | -hrs |
 
 ## Code Snippet
 
