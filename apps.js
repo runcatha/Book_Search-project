@@ -6,6 +6,8 @@
 
 // render main search
 const button = document.querySelector('#search')
+const buttonNYC = document.querySelector('#NYT-Bestsellers')
+const buttonRecommend = document.querySelector('#recommended')
 function renderList(bookData) {
   removeElement()
   console.log(bookData)
@@ -25,10 +27,10 @@ function renderList(bookData) {
     bookStats.append(bookTitle)
     //Cover img
     let bookCover = document.createElement('img')
-    if (!book.volumeInfo.imageLinks.thumbnail) {
-      bookCover.alt = 'Book cover'
-    } else {
+    if (book.volumeInfo.imageLinks.thumbnail) {
       bookCover.src = `${book.volumeInfo.imageLinks.thumbnail}`
+    } else {
+      bookCover.alt = 'Book cover'
     }
     bookStats.append(bookCover)
     //Author
@@ -89,42 +91,55 @@ function removeElement() {
   }
 }
 
+//***POPULAR SEARCH***
 
-//***POPULAR SEARCH*** 
-//create popular search
-window.onload = function () {
-  document.getElementById('NYT Bestsellers').onclick = async () => {
-    try {
-      const data = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=new-york-times-best-sellers`)
-      renderList(data.data.items)
-      // console.log(data.data)
-      return data
-    } catch (err) {
-      console.error(err)
-    }
+const getBestsellersData = async () => {
+  try {
+
+    const data2 = await axios.get(
+      `https://www.googleapis.com/books/v1/volumes?q=new-york-times-best-sellers`
+    );
+    renderList(data2.data.items);
+    console.log(data2.data.items);
+    return data2;
+  } catch (err) {
+    console.error(err);
+  }
+};
+buttonNYC.addEventListener("click", getBestsellersData);
+//remove previous data on new search
+function removeElement() {
+  let removeBooks = document.querySelector(".book-container");
+  while (removeBooks.lastChild) {
+    removeBooks.removeChild(removeBooks.lastChild);
   }
 }
 
-//render popular search
-
 //***RECOMMENDED SEARCH***
 
-const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
-let bookIndex = bookArr.length
-let randomBook = Math.floor(Math.random() * bookIndex)
 //create reommended search
+const getRecommendedData = async () => {
+  try {
+    const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
+    let bookIndex = bookArr.length
+    let randomBook = Math.floor(Math.random() * bookIndex)
+    const data3 = await axios.get(
+      `https://www.googleapis.com/books/v1/volumes?q=${bookArr[randomBook]}`);
+    renderList(data3.data.items);
+    console.log(data3.data.items);
+    return data3;
+  } catch (err) {
+    console.error(err);
+  }
+};
+buttonRecommend.addEventListener("click", getRecommendedData);
+//remove previous data on new search
+function removeElement() {
+  let removeBooks = document.querySelector(".book-container");
+  while (removeBooks.lastChild) {
+    removeBooks.removeChild(removeBooks.lastChild);
+  }
+}
 
-  //render recommended search
 
-    //HTML structure (make div)
-
-    //Title
-    //Author
-    //Cover img
-    //Publisher
-    //Descriotion
-    //Rating
-
-  //render book data, listen for click event
-  //remove previous data on new search
 

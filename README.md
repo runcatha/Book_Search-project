@@ -112,8 +112,8 @@ This project will allow you to find books by title, author, and publisher. Resea
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Complete
-|August 3| Complete Popular search HTML, CSS, JS | Incomplete
-|August 4| Complete Recommended search HTML, CSS, JS | Incomplete
+|August 3| Complete Popular and Recommended Search| Complete
+|August 4| Create responsive design| Incomplete
 |August 5| Improve CSS, dry code | Incomplete
 |August 6| Presentations | Incomplete
 
@@ -130,20 +130,19 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Complete Readme | H | 3hrs| 3hrs | 3hrs |
 | Touch files| H | .1 hrs| .1hrs | .1hrs |
 | Psudocode | H | 2 hrs |  .5hrs| .5hrs | 
-| Basic HTML/CSS | H | 2 hrs |  3hrs| 3hrs | 3hrs |
+| Basic HTML/CSS | H | 2 hrs |  3hrs| 3hrs | 
 | Render main data | H | 3hrs| 4hrs | 4hrs |
-| Render NYT data | H | 2hrs| -hrs | -hrs |
-| Consult on array| M | 1.5 hrs| -hrs | -hrs |
-| Render TMM data | H | 2 hrs |  -hrs| -hrs | -hrs |
-| Create array for book recommendations | L | 3 hrs |  -hrs| -hrs | -hrs |
-| Render array to display data | L | 3hrs| -hrs | -hrs |
+| Render NYT data | H | 2hrs| 2hrs | 2hrs |
+| Consult on array| M | 1.5 hrs| 1.5hrs | 1.5hrs |
+| Create array for book recommendations | L | 3 hrs |  1hrs| 1hrs |
+| Render array to display data | L | 3hrs| 1hrs | 1hrs |
 | Create responsive design | H | 2hrs| -hrs | -hrs |
-| Remove previous search data | H | 3hrs| -hrs | -hrs |
+| Remove previous search data | H | 3hrs| 2hrs | 2hrs |
 | Add nav bar| L | 1 hrs| -hrs | -hrs |
-| Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | -hrs |
-| Add loading giff | L | 2 hrs |  -hrs| -hrs | -hrs |
+| Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | 
+| Add loading giff | L | 2 hrs |  -hrs| -hrs | 
 | Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 5.1hrs | -hrs |
+| Total | H | 32.6hrs| 19.6hrs | -hrs |
 
 ## Code Snippet
 
