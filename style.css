@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+  background-color: antiquewhite;
+}
+.book-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.search-section {
+  font-family: 'Georama', sans-serif;
+}
+.additional-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+input {
+  width: 30%;
+  height: 20%;
+  border-radius: 10px;
+  font-family: 'Georama', sans-serif;
+}
+button {
+  width: 10%;
+  height: 20%;
+  border-radius: 10px;
+  font-family: 'Georama', sans-serif;
+}
+img {
+  width: 40%;
+  border-radius: 20px;
+  margin: 40px 40px 40px 40px;
+  border: 7px solid white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

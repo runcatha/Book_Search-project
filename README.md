@@ -129,8 +129,8 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Complete Readme | H | 3hrs| 3hrs | 3hrs |
 | Touch files| H | .1 hrs| .1hrs | .1hrs |
 | Psudocode | H | 2 hrs |  .5hrs| .5hrs | 
-| Basic HTML/CSS | H | 2 hrs |  -hrs| -hrs | -hrs |
-| Render main data | H | 3hrs| -hrs | -hrs |
+| Basic HTML/CSS | H | 2 hrs |  3hrs| 3hrs | 3hrs |
+| Render main data | H | 3hrs| 4hrs | 4hrs |
 | Render NYT data | H | 2hrs| -hrs | -hrs |
 | Consult on array| M | 1.5 hrs| -hrs | -hrs |
 | Render TMM data | H | 2 hrs |  -hrs| -hrs | -hrs |

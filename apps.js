@@ -7,13 +7,17 @@
 // render main search
 const button = document.querySelector('#search')
 function renderList(bookData) {
+  removeElement()
   console.log(bookData)
-  let section = document.querySelector('section')
+  let section = document.querySelector('.book-list')
+  let bookContainer = document.querySelector('.book-container')
+  section.append(bookContainer)
   bookData.forEach((book) => {
 
     //HTML structure (make div)
     let bookStats = document.createElement('div')
-    section.append(bookStats)
+    bookStats.classList.add('book-class')
+    bookContainer.append(bookStats)
 
     //Title
     let bookTitle = document.createElement('h2')
@@ -64,6 +68,7 @@ function renderList(bookData) {
 //render book data, listen for click event
 
 const getData = async () => {
+  // removeElement()
   try {
     const bookInput = document.querySelector('input').value
     // console.log(bookInput)
@@ -78,9 +83,9 @@ const getData = async () => {
 button.addEventListener('click', getData)
 //remove previous data on new search
 function removeElement() {
-  let
-  while (element.lastChild) {
-    element.removeChild(element.lastChild)
+  let removeBooks = document.querySelector('.book-container')
+  while (removeBooks.lastChild) {
+    removeBooks.removeChild(removeBooks.lastChild)
   }
 }
 
