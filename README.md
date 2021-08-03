@@ -111,7 +111,7 @@ This project will allow you to find books by title, author, and publisher. Resea
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Incomplete
+|August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Complete
 |August 3| Complete Popular search HTML, CSS, JS | Incomplete
 |August 4| Complete Recommended search HTML, CSS, JS | Incomplete
 |August 5| Improve CSS, dry code | Incomplete
@@ -121,6 +121,7 @@ This project will allow you to find books by title, author, and publisher. Resea
 
 https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 
+ 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |

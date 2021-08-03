@@ -91,7 +91,19 @@ function removeElement() {
 
 
 //***POPULAR SEARCH*** 
-  //create popular search
+//create popular search
+window.onload = function () {
+  document.getElementById('NYT Bestsellers').onclick = async () => {
+    try {
+      const data = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=new york times best sellers`)
+      renderList(data.data.items)
+      // console.log(data.data)
+      return data
+    } catch (err) {
+      console.error(err)
+    }
+  }
+}
 
   //render popular search
 
@@ -125,4 +137,3 @@ function removeElement() {
   //render book data, listen for click event
   //remove previous data on new search
 
-//Loading giff
