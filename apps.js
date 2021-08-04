@@ -27,11 +27,10 @@ function renderList(bookData) {
     bookStats.append(bookTitle)
     //Cover img
     let bookCover = document.createElement('img')
-    if (book.volumeInfo.imageLinks.thumbnail) {
-      bookCover.src = `${book.volumeInfo.imageLinks.thumbnail}`
-    } else if (book.volumeInfo.imageLinks.thumbnail) {
-
+    if (!book.volumeInfo.imageLinks) {
       bookCover.alt = 'Book cover'
+    } else {
+      bookCover.src = `${book.volumeInfo.imageLinks.thumbnail}`
     }
     bookStats.append(bookCover)
     //Author
