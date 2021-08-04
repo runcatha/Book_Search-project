@@ -142,7 +142,7 @@ https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 | Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | 
 | Add loading giff | L | 2 hrs |  -hrs| -hrs | 
 | Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 19.6hrs | -hrs |
+| Total | H | 32.6hrs| 19.6ophrs | -hrs |
 
 ## Code Snippet
 

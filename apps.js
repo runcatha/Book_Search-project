@@ -29,7 +29,8 @@ function renderList(bookData) {
     let bookCover = document.createElement('img')
     if (book.volumeInfo.imageLinks.thumbnail) {
       bookCover.src = `${book.volumeInfo.imageLinks.thumbnail}`
-    } else {
+    } else if (book.volumeInfo.imageLinks.thumbnail) {
+
       bookCover.alt = 'Book cover'
     }
     bookStats.append(bookCover)
