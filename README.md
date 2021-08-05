@@ -113,16 +113,14 @@ This project will allow you to find books by title, author, and publisher. Resea
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Complete
 |August 3| Complete Popular and Recommended Search| Complete
-|August 4| Create responsive design| Complete
-|August 5| Improve CSS, dry code | Incomplete
+|August 4| Create responsive design #1| Complete
+|August 5| Create responsive design #2 | Complete
 |August 6| Presentations | Incomplete
 
 ## Priority Matrix
  
  https://whimsical.com/TRyANzDFZGPnnmQjnZeZ5f
 
- blob:https://whimsical.com/341f89f9-0d64-42cf-bed7-a39d4e1b61fd
- 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
@@ -137,23 +135,40 @@ This project will allow you to find books by title, author, and publisher. Resea
 | Consult on array| M | 1.5 hrs| 1.5hrs | 1.5hrs |
 | Create array for book recommendations | L | 3 hrs |  1hrs| 1hrs |
 | Render array to display data | L | 3hrs| 1hrs | 1hrs |
-| Create responsive design | H | 2hrs| -hrs | -hrs |
+| Create responsive design | H | 2hrs| 16hrs | 16hrs |
 | Remove previous search data | H | 3hrs| 2hrs | 2hrs |
-| Add nav bar| L | 1 hrs| -hrs | -hrs |
-| Make colors more dynamic | L | 1 hrs |  -hrs| -hrs | 
-| Add loading giff | L | 2 hrs |  -hrs| -hrs | 
+| Make colors more dynamic | L | 1 hrs |  1hrs| 1hrs | 
+| Add animated giff | L | 2 hrs |  .5hrs| .5hrs | 
 | Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 19.6ophrs | -hrs |
+| Total | H | 32.6hrs| 37.1-hrs | -hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This code calls the api with a book title randomly selected from an array. The function is triggered by clicking the picture of a stack of books that also changes the HTML h2 element from 'Book list' to 'We recommend'.
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+const getRecommendedData = async () => {
+  try {
+    const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
+    let bookIndex = bookArr.length
+    let randomBook = Math.floor(Math.random() * bookIndex)
+    const data3 = await axios.get(
+      `https://www.googleapis.com/books/v1/volumes?q=${bookArr[randomBook]}`);
+    renderList(data3.data.items);
+    console.log(data3.data.items);
+    return data3;
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+buttonRecommend.addEventListener("click", () => {
+  getRecommendedData()
+  const changeH2 = document.querySelector('.change-name')
+  changeH2.innerHTML = `We recommend :`
+});
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+Rather than splitting time bewtween CSS and JS till Wednesday, I chose to focus completely on JS Monday and Tuesday, then CSS Wednesday and Thursday. This is possible because the NYT and recommended searches were much easier to code than I expected.
+ Main, NYT, and recommended search were completed by Tuesday which is very ahead of schedule. 
+ Wednesday was devoted to making the small screen media query.
+ Thursday was devoted to making the large screen query.

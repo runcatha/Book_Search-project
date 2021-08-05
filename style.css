@@ -30,7 +30,7 @@ nav {
 
 input {
   margin-right: 1%;
-  width: 30%;
+  width: 30vh;
   height: 20%;
   border-radius: 10px;
   font-family: 'Georama', sans-serif;
@@ -76,7 +76,7 @@ input {
   margin-bottom: 10%;
   border: 7px solid white;
   order: 1;
-
+  margin-left: 28%;
 }
  
 /* *RESPONSIVE RULES* */
@@ -86,6 +86,9 @@ input {
     flex-direction: column;
     align-items: center;
   }
+  /* #search {
+    width: 12vh;
+  } */
   #recommended {
     display: block;
     height: 100%;
@@ -103,9 +106,9 @@ input {
   main {
     display: flex;
   }
-  /* .flex-container-wrapper {
-
-  } */
+  .flex-container-wraper {
+    width: 28%;
+  }
   .main-search {
     justify-content: flex-start;
     width: 25%;
@@ -115,13 +118,19 @@ input {
     width: 25vh;
     margin-bottom: 20%;
   }
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: auto;
+  }
   input {
-    width: 27vh;
+    width: 29vh;
   }
   #search {
     width: 12vh;
-    margin-top: 77%;
-    margin-left: 25%;
+    margin: 5px auto;
   }
   .additional-search {
     flex-direction: column;
@@ -141,9 +150,12 @@ input {
   .book-list {
     justify-content: center;
     width: 75%;
+    background: whitesmoke;
   }
-  h2 {
-
+  .loading-book {
+    height: 20vh;
+    width: 30vh;
+    margin-left: 33%;
   }
  }
 
