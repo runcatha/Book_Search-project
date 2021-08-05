@@ -121,7 +121,8 @@ This project will allow you to find books by title, author, and publisher. Resea
  
  https://whimsical.com/TRyANzDFZGPnnmQjnZeZ5f
 
- <iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/TRyANzDFZGPnnmQjnZeZ5f"></iframe>
+ blob:https://whimsical.com/341f89f9-0d64-42cf-bed7-a39d4e1b61fd
+ 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
