@@ -122,6 +122,7 @@ This project will allow you to find books by title, author, and publisher. Resea
 https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
 
  
+ https://whimsical.com/TRyANzDFZGPnnmQjnZeZ5f
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
