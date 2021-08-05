@@ -113,7 +113,7 @@ This project will allow you to find books by title, author, and publisher. Resea
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Pseudocode / complete MVP HTML, CSS, JS| Complete
 |August 3| Complete Popular and Recommended Search| Complete
-|August 4| Create responsive design| Incomplete
+|August 4| Create responsive design| Complete
 |August 5| Improve CSS, dry code | Incomplete
 |August 6| Presentations | Incomplete
 
