@@ -118,11 +118,10 @@ This project will allow you to find books by title, author, and publisher. Resea
 |August 6| Presentations | Incomplete
 
 ## Priority Matrix
-
-https://miro.com/app/board/o9J_l4MmQeI=/?moveToWidget=3074457362011012034&cot=10
-
  
  https://whimsical.com/TRyANzDFZGPnnmQjnZeZ5f
+
+ <iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/TRyANzDFZGPnnmQjnZeZ5f"></iframe>
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
