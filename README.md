@@ -148,7 +148,7 @@ This code calls the api with a book title randomly selected from an array. The f
 
 const getRecommendedData = async () => {
   try {
-    const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
+  const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
     
     let bookIndex = bookArr.length
     let randomBook = Math.floor(Math.random() * bookIndex)
