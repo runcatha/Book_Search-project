@@ -1,7 +1,3 @@
-//link api
-// 'https://www.googleapis.com/books/v1/volumes?q={search terms}'
-
-
 //JS to attatch bookworm image to nav
 const header = document.querySelector('header')
 const bookworm = document.createElement('img')
@@ -110,7 +106,7 @@ function removeElement() {
 }
 
 
-//***POPULAR SEARCH***
+//***NYT SEARCH***
 //function calls the api to get the NYT bestsellers data that is preset in the link
 const getBestsellersData = async () => {
   try {
@@ -118,7 +114,6 @@ const getBestsellersData = async () => {
       `https://www.googleapis.com/books/v1/volumes?q=new-york-times-best-sellers`
     );
     renderList(data2.data.items);
-    console.log(data2.data.items);
     return data2;
   } catch (err) {
     console.error(err);
@@ -149,7 +144,6 @@ const getRecommendedData = async () => {
     const data3 = await axios.get(
       `https://www.googleapis.com/books/v1/volumes?q=${bookArr[randomBook]}`);
     renderList(data3.data.items);
-    console.log(data3.data.items);
     return data3;
   } catch (err) {
     console.error(err);

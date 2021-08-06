@@ -72,7 +72,11 @@ input {
   align-self: center;
 }
  
+
+
 /* *RESPONSIVE RULES* */
+
+
 
 @media all and (max-width: 550px) {
   .additional-search {

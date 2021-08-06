@@ -115,7 +115,7 @@ This project will allow you to find books by title, author, and publisher. Resea
 |August 3| Complete Popular and Recommended Search| Complete
 |August 4| Create responsive design #1| Complete
 |August 5| Create responsive design #2 | Complete
-|August 6| Presentations | Incomplete
+|August 6| Presentations | Complete
 
 ## Priority Matrix
  
@@ -139,8 +139,8 @@ This project will allow you to find books by title, author, and publisher. Resea
 | Remove previous search data | H | 3hrs| 2hrs | 2hrs |
 | Make colors more dynamic | L | 1 hrs |  1hrs| 1hrs | 
 | Add animated giff | L | 2 hrs |  .5hrs| .5hrs | 
-| Deploy website | H | .5hrs| -hrs | -hrs |
-| Total | H | 32.6hrs| 37.1-hrs | -hrs |
+| Deploy website | H | .5hrs| .5hrs | .5hrs |
+| Total | H | 32.6hrs| 37.6-hrs | 37.6hrs |
 
 ## Code Snippet
 
@@ -149,10 +149,13 @@ This code calls the api with a book title randomly selected from an array. The f
 const getRecommendedData = async () => {
   try {
     const bookArr = ['The Total Money Makeover', 'Everyday Millionaires', 'Fahrenheit 451', 'Animal Farm', 'Brave New World', 'The Great Adventure Catholic Bible', 'A Clockwork Orange', 'Ten Stupid Things Men Do to Mess Up Their Lives', 'Why I Am a Catholic', 'The Federalist Papers']
+    
     let bookIndex = bookArr.length
     let randomBook = Math.floor(Math.random() * bookIndex)
+    
     const data3 = await axios.get(
       `https://www.googleapis.com/books/v1/volumes?q=${bookArr[randomBook]}`);
+    
     renderList(data3.data.items);
     console.log(data3.data.items);
     return data3;
