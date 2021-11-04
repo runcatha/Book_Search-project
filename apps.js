@@ -20,7 +20,6 @@ searchSection.append(buttonRecommend)
 //Render list function to collect data from api
 function renderList(bookData) {
   removeElement()
-  console.log(bookData)
   let section = document.querySelector('.book-list')
   let bookContainer = document.querySelector('.book-container')
   section.append(bookContainer)
